@@ -1,0 +1,80 @@
+body {
+    background: #353535;
+    text-align: center;
+}
+
+.blurb { 
+    color: #FF913D;
+    font-family: "Averia Libre";
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+
+.fix {
+    margin-top: 20px;
+}
+
+.footer {
+    padding: 50px;
+    color: white;
+    font-weight: bolder;
+    font-family: "Offside";
+}
+
+.logofooter {
+    max-width: 50px;
+    opacity: 0.4;
+}
+
+.bigger {
+    font-size: 2.7em;
+    font-weight: bolder;
+}
+
+.mixlook {
+    max-width: 200px;
+    margin: 20px 10px;
+}
+
+.social {
+    font-size: 2.7em;
+    font-weight: bolder;
+    font-family: "Averia Libre";
+    color: #FF913D;
+}
+
+.orange {
+    color: #FF913D;
+}
+
+.button {
+    background-color: #FF913D;
+    border: none;
+    color: #353535;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.7em;
+    font-family: "Offside";
+    font-weight: bolder;
+    margin: 15px;
+    border-radius: 40px;
+  }
+
+.navbar-brand {
+    margin-top: 40px;
+}
+
+.info {
+    margin-top: 50px;
+}
+
+.subtitle {
+    color: white;
+    font-family: "Offside";
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0 50px;
+}
