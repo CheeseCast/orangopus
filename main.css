@@ -89,7 +89,36 @@ body {
     margin: 15px;
     border-radius: 40px;
     transition: transform .2s; 
-  }
+}
+
+.discord {
+    background-color: #7289DA;
+    color: #fff;
+    font-weight: normal;
+}
+.twitter {
+    background-color: #1da1f2;
+    color: #fff;
+    margin: 10px;
+    font-weight: normal;
+    border-radius: 100%;
+}
+
+.instagram {
+    background-color: #e1306c;
+    color: #fff;
+    margin: 10px;
+    font-weight: normal;
+    border-radius: 100%;
+}
+
+.github {
+    background-color: #fff;
+    color: #000;
+    margin: 10px;
+    font-weight: normal;
+    border-radius: 100%;
+}
 
 .button:hover {
     transform: scale(1.05);
