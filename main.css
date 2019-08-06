@@ -11,6 +11,33 @@ body {
     font-weight: bolder;
 }
 
+.project {
+    background: #FF913D; 
+    border-radius: 25px; 
+    box-shadow: 0 6px 28px 0 rgba(0,0,0, 0.2); 
+    margin: 20px; 
+    padding: 45px 50px; 
+    text-align: left;
+    transition: transform .2s; 
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.desc {
+    font-family: "Offside";
+    color: #353535
+}
+
+.name {
+    font-weight: bolder;
+    font-family: "Averia Libre";
+    color: #353535;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
 .fix {
     margin-top: 20px;
 }
@@ -61,7 +88,12 @@ body {
     font-weight: bolder;
     margin: 15px;
     border-radius: 40px;
+    transition: transform .2s; 
   }
+
+.button:hover {
+    transform: scale(1.05);
+}
 
 .navbar-brand {
     margin-top: 40px;
