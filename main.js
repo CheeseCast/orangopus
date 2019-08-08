@@ -1,7 +1,8 @@
 $(document).ready(function() { 
-    var github = "https://api.github.com/users/orangopus/repos"
-
-    $.get(github, function(result) {
+    var endpoint = "https://api.github.com/users/orangopus"
+    var repos = "/repos"
+    
+    $.get(endpoint+repos, function(result) {
 
         $("#name1").append(result[5].name);
         $("#name2").append(result[4].name);
