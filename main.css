@@ -25,6 +25,32 @@ body {
     transform: scale(1.05);
 }
 
+.meetup {
+    border-radius: 25px;
+    padding: 0px;
+    background-image: url("/img/meetup.png");
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+.orange {
+    color: #FF913D;
+}
+
+.initiatives {
+    background: #353535; 
+    border-radius: 25px; 
+    box-shadow: 0 6px 28px 0 rgba(0,0,0, 0.2); 
+    margin: 20px; 
+    padding: 45px 50px; 
+    text-align: left;
+    transition: transform .2s; 
+}
+
+.initiatives:hover {
+    transform: scale(1.05);
+}
+
 .desc {
     font-family: "Offside";
     color: #353535
@@ -96,12 +122,74 @@ body {
     color: #fff;
     font-weight: normal;
 }
+
+.discordb {
+    background-color: #fff;
+    color: #7289DA;
+    font-weight: normal;
+}
+
 .twitter {
     background-color: #1da1f2;
     color: #fff;
     margin: 10px;
     font-weight: normal;
     border-radius: 100%;
+}
+
+.lab {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.sub {
+    padding-top: 10px;
+    text-align: left !important;
+}
+
+.labs {
+    border-radius: 25px;
+    box-shadow: 0 6px 28px 0 rgba(0,0,0, 0.2); 
+    padding: 50px;
+}
+
+.white {
+    background-color: white;
+    color: #50a447;
+    margin: 0;
+}
+
+.green {
+    background: #50a447;
+    color: #fff !important;
+}
+
+.suggestion {
+    color: #fff;
+    font-family: "Offside";
+}
+
+.avatar {
+    border: 0 0 0 1px;
+    border-radius: 100%;
+    background: #353535;
+    max-height: 250px;
+}
+
+.team-profile {
+    text-align: left;
+}
+
+.suggestion-link {
+    font-weight: bolder;
+    color: #fff;
+    text-decoration: none;
+}
+
+.suggestion-link:hover {
+    color: #fff;
 }
 
 .instagram {
