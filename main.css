@@ -215,6 +215,23 @@ body {
     color: #fff;
 }
 
+.helpb {
+    text-align: right !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    text-align: left !important;
+    padding: 0 !important;
+}
+
+.help {
+    background-image: url('/img/top.png');
+    background-size: cover;
+}
+
 .nocorn-left {
     border-radius: 25px 0 0 25px;
 }
