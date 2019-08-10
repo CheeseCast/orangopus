@@ -22,6 +22,10 @@ body {
     cursor: pointer; 
 }
 
+.profile {
+    margin: 40px 0px;
+}
+
 .project:hover {
     transform: scale(1.05);
     cursor: pointer; 
@@ -201,8 +205,13 @@ body {
     max-height: 250px;
 }
 
-.profile {
-    background: #FF913D;
+.grey {
+    color: #353535;
+}
+
+.sub {
+    font-size: 30px;
+    opacity: 0.5;
 }
 
 .suggestion-link {
@@ -222,13 +231,25 @@ body {
     justify-content: center;
 }
 
+
+
 .left {
     text-align: left !important;
     padding: 0 !important;
 }
 
+.right {
+    text-align: right !important;
+    padding: 0 !important;
+}
+
 .help {
     background-image: url('/img/top.png');
+    background-size: cover;
+}
+
+.mdl {
+    background-image: url('/img/mdl-bg.png');
     background-size: cover;
 }
 
@@ -258,6 +279,23 @@ body {
 
 .button:hover {
     transform: scale(1.05);
+}
+
+.socialt {
+        border: none;
+        color: #FF913D;
+        padding: 0px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.7em;
+        font-family: "Offside";
+        font-weight: normal;
+        margin: 5px;
+}
+
+.socialt:hover {
+    color: #FF913D;
 }
 
 .navbar-brand {
