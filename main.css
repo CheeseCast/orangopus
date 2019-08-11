@@ -248,6 +248,12 @@ body {
     background-size: cover;
 }
 
+.noun:hover {
+    text-decoration: none;
+}
+
+
+
 .mdl {
     background-image: url('/img/mdl-bg.png');
     background-size: cover;
