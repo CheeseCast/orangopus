@@ -2,9 +2,15 @@
   background-image: url('https://orangop.us/img/top.png');
   background-repeat: none;
   background-size: cover;
+  background-position: 50%;
 }
 
 .doc-page-title {
   text-align: left !important; 
 }
 
+.doc-brand-logo img {
+    max-width: 50px;
+    max-height: 50px;
+    width: 100%;
+}
