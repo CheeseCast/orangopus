@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Libre&display=swap');
+
 #hn-help-doc-page-wrapper {
   background-image: url('https://orangop.us/img/top.png');
   background-repeat: none;
@@ -7,6 +9,7 @@
 
 .doc-page-title {
   text-align: left !important; 
+  font-family: "Averia Libre";
 }
 
 #hn-help-doc-page-wrapper .doc-brand-logo img {
@@ -22,5 +25,5 @@
 
 .hn-doc-home-page .hn-collections-cards-style:hover {
     border: none !important;
-    transform: scale(1.01) translateY(-10px);
+    transform: scale(1.05);
 }
