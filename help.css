@@ -1,8 +1,10 @@
 #hn-help-doc-page-wrapper {
-  background-image: url('https://orangop.us/img/top.png') !important;
+  background-image: url('https://orangop.us/img/top.png');
+  background-repeat: none;
+  background-size: cover;
 }
 
-#hn-help-doc-page-wrapper .doc-page-title {
-  text-align: left; 
+.doc-page-title {
+  text-align: left !important; 
 }
 
