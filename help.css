@@ -14,13 +14,13 @@
     max-height: 50px !important;
 }
 
-.hn-collections-cards-style {
-    border-radius 10px;
+.hn-doc-home-page .hn-collections-cards-style {
+    border-radius 20px;
     border: none !important;
     transition: transform .2s;
 }
 
-.hn-collections-cards-style:hover {
+.hn-doc-home-page .hn-collections-cards-style:hover {
     border: none !important;
-    transform: scale(1.1);
+    transform: scale(1.01) translateY(-10px);
 }
