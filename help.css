@@ -13,3 +13,14 @@
     max-width: 50px !important;
     max-height: 50px !important;
 }
+
+.hn-collections-cards-style {
+    border-radius 10px;
+    border: none !important;
+    transition: transform .2s;
+}
+
+.hn-collections-cards-style:hover {
+    border: none !important;
+    transform: scale(1.1);
+}
