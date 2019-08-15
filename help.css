@@ -27,3 +27,11 @@
     border: none !important;
     transform: scale(1.05);
 }
+
+.hn-vertical-line {
+  display: none;
+}
+
+.doc-page-name {
+  display: none; 
+}
