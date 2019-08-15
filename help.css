@@ -35,3 +35,7 @@
 .doc-page-name {
   display: none; 
 }
+
+.article-label-arrow .article-count {
+  display: none;
+}
