@@ -9,8 +9,7 @@
   text-align: left !important; 
 }
 
-.doc-brand-logo img {
+#hn-help-doc-page-wrapper .doc-brand-logo img {
     max-width: 50px !important;
     max-height: 50px !important;
-    width: 100%;
 }
