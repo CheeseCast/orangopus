@@ -1,6 +1,8 @@
 $(document).ready(function() { 
     var endpoint = "https://api.github.com/users/orangopus"
     var repos = "/repos"
+
+    $('[data-toggle="tooltip"]').tooltip();
     
     $.get(endpoint+repos, function(result) {
 

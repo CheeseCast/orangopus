@@ -40,7 +40,7 @@ body {
 }
 
 .orange {
-    color: #FF913D;
+    color: #FF913D !important;
 }
 
 .initiatives {
@@ -51,6 +51,15 @@ body {
     padding: 45px 50px; 
     text-align: left;
     transition: transform .2s; 
+}
+
+.orange { 
+    color: 
+}
+
+.inactive { 
+    opacity:0.5;
+    filter: grayscale(100%);
 }
 
 .initiatives:hover {
