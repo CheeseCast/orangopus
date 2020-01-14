@@ -53,13 +53,14 @@ body {
     transition: transform .2s; 
 }
 
-.orange { 
-    color: 
+.avatar:hover { 
+    transform: scale(1.05);
 }
 
 .inactive { 
     opacity:0.5;
     filter: grayscale(100%);
+    transform: none;
 }
 
 .initiatives:hover {
@@ -136,6 +137,7 @@ body {
     border-radius: 100%;
     border: 5px solid #FF913D;
     box-shadow: 0 6px 28px 0 rgba(0,0,0, 0.2); 
+    transition: transform .2s; 
 }
 
 .discord {
@@ -361,6 +363,13 @@ body {
 
 .info {
     margin-top: 50px;
+}
+
+.footer { 
+    background-image: url(./img/end.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 200px;
 }
 
 .subtitle {
