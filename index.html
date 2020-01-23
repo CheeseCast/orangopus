@@ -30,20 +30,31 @@
 
 <body>
     <header class="masthead text-center text-white" id="header">
-        <div class="masthead-content">
+        <div class="masthead-content herobg">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img style="max-width:150px; margin-top: 15px;" src="./img/logo.png">
+                    <img class="logo" src="./img/logo.png">
                 </a>
-                <h1 class="blurb">We're an open-source non-profit development studio working on projects for creators &
-                    beyond.</h1>
+                <div>
+                    <img class="breathing" src="./img/breathingtube.png"> 
+                    <img class="octonaut" src="./img/octonaut.png">
+                </div>
+                <div>
+                    <h1 class="blurb">We're an open-source non-profit development studio working on projects for creators &
+                        beyond.</h1>
+                    <button class="button box" style="margin-top: 100px;" onclick="location.href='#learn-more'">Learn more...</button>
+                    <button class="button discord box" onclick="location.href='https://go.orangop.us/discord'">
+                        <i class="fab fa-discord"></i> <b>Connect</b></button>
+                </div>
             </div>
     </header>
 
-    <section class="info ">
+    <div id="learn-more"></div>
+
+    <section class="info">
         <div class="container">
             <p class="subtitle" style="padding-bottom: 35px;">At <span class="orange">Orangopus</span> we believe in a
-                free & open-source model and
+                free &amp; open-source model and
                 aim to build a platform in which users can create their own projects, but also receive ongoing
                 mentorship through platforms such as Discord and be rewarded through said initiatives. Well that's the
                 idea...</p>

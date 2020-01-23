@@ -91,6 +91,60 @@ body {
     font-family: "Offside";
 }
 
+.logo {
+    max-width:50px; 
+    margin-top: 15px;
+}
+
+.octonaut {
+    animation: float;
+    position: absolute;
+    max-width: 50%;
+    right: 0;
+    offset-position: 100px;
+    transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+.breathing {
+    right: 0;
+    position: absolute;
+    transform: translatey(0px);
+	animation: breathing 6s ease-in-out infinite;
+}
+
+.herobg {
+    position: absolute;
+    background: url(./img/herobg.svg)  no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-50px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@keyframes breathing {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-30px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
 .logofooter {
     max-width: 50px;
     opacity: 0.4;
@@ -104,6 +158,12 @@ body {
 .mixlook {
     max-width: 200px;
     margin: 20px 10px;
+}
+
+#header {
+    background: #131313;
+    height: 100vh;
+    background-image: url(./img/spacehero.png);
 }
 
 .social {
@@ -172,6 +232,10 @@ body {
 .sub {
     padding-top: 10px;
     text-align: left !important;
+}
+
+.box {
+    box-shadow: 0 6px 28px 0 rgba(0,0,0, 0.2); 
 }
 
 .labs {
