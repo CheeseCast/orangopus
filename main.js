@@ -1,7 +1,15 @@
 $(document).ready(function() { 
     var endpoint = "https://api.github.com/users/orangopus"
     var repos = "/repos"
+    var discord = "https://discordapp.com/api/guilds/544532292329144322/widget.json";
 
+    $.get(discord, function(usercount) {
+
+        $("#usercount").text(usercount.members.length + " inklings online")
+
+    });
+
+    
     $('[data-toggle="tooltip"]').tooltip();
     
     $.get(endpoint+repos, function(result) {

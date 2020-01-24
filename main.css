@@ -121,6 +121,10 @@ body {
     width: 100%;
 }
 
+#usercount {
+    cursor: pointer;
+}
+
 @keyframes float {
 	0% {
 		transform: translatey(0px);
