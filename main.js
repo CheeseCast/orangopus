@@ -1,7 +1,7 @@
 $(document).ready(function() { 
     var endpoint = "https://api.github.com/users/orangopus"
     var repos = "/repos"
-    var discord = "https://discordapp.com/api/guilds/544532292329144322/widget.json";
+    var discord = "https://discordapp.com/api/guilds/698253355235016817/widget.json";
 
     $.get(discord, function(usercount) {
 
