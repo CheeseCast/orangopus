@@ -1,448 +1,564 @@
 body {
-    background: #353535;
-    text-align: center;
+  background: #111111;
+  text-align: center;
+  font-family: Quicksand;
+  overflow-x: hidden;
 }
 
-.blurb { 
-    color: #FF913D;
-    font-family: "Averia Libre";
-    text-align: center;
-    margin-top: 50px;
-    font-weight: bolder;
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.blurb {
+  color: #ff913d;
+  font-family: "Quicksand";
+  text-align: center;
+  font-weight: bolder;
+
+  position: absolute;
+  width: 518px;
+  height: 124px;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.masthead-content {
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.navbar {
+  background: transparent !important;
 }
 
 .project {
-    background: #FF913D; 
-    border-radius: 25px; 
-    box-shadow: 0 6px 28px 0 rgba(0,0,0, 0.2); 
-    margin: 20px; 
-    padding: 45px 50px; 
-    text-align: left;
-    transition: transform .2s;
-    cursor: pointer; 
+  background: #ff913d;
+  border-radius: 25px;
+  box-shadow: 0 6px 28px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 45px 50px;
+  text-align: left;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.button2 {
+  width: 171px;
+  height: 59px;
+  background: #ff913d;
+  border-radius: 5px;
+  border: none;
+}
+
+.projects {
+  background-image: url("/img/section-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.collective {
+  background-image: url("/img/collective-shapes.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 900px;
+}
+
+.button-white {
+  background: white !important;
+}
+
+.button-oc {
+  background: #7fadf2 !important;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
 }
 
 .profile {
-    margin: 40px 0px;
+  margin: 40px 0px;
 }
 
 .project:hover {
-    transform: scale(1.05);
-    cursor: pointer; 
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .meetup {
-    border-radius: 25px;
-    padding: 0px;
-    background-image: url("/img/meetup.png");
-    background-repeat:no-repeat;
-    background-position: center center;
+  border-radius: 25px;
+  padding: 0px;
+  background-image: url("/img/meetup.png");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .orange {
-    color: #FF913D !important;
+  color: #ff913d !important;
 }
 
 .initiatives {
-    background: #353535; 
-    border-radius: 25px; 
-    box-shadow: none !important;
-    margin: 20px; 
-    padding: 45px 50px; 
-    text-align: left;
-    transition: transform .2s; 
+  background: #353535;
+  border-radius: 25px;
+  box-shadow: none !important;
+  margin: 20px;
+  padding: 45px 50px;
+  text-align: left;
+  transition: transform 0.2s;
 }
 
-.avatar:hover { 
-    transform: scale(1.05);
+.avatar:hover {
+  transform: scale(1.05);
 }
 
-.inactive { 
-    opacity:0.5;
-    filter: grayscale(100%);
-    transform: none;
+.inactive {
+  opacity: 0.5;
+  filter: grayscale(100%);
+  transform: none;
 }
 
 .initiatives:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .desc {
-    font-family: "Offside";
-    color: #353535
+  font-family: "Quicksand";
+  color: #353535;
 }
 
 .name {
-    font-weight: bolder;
-    font-family: "Averia Libre";
-    color: #353535;
-    font-size: 2em;
-    text-transform: capitalize;
+  font-weight: bolder;
+  font-family: "Quicksand";
+  color: #353535;
+  font-size: 2em;
+  text-transform: capitalize;
 }
 
 .fix {
-    margin-top: 20px;
+  margin-top: 20px;
+}
+
+nav .navbar-nav li a {
+  color: white !important;
+  margin-right: 30px;
 }
 
 .footer {
-    padding: 50px;
-    color: white;
-    font-weight: bolder;
-    font-family: "Offside";
+  padding: 50px;
+  color: white;
+  font-weight: bolder;
+  font-family: "Quicksand";
 }
 
 .logo {
-    max-width:50px; 
-    margin-top: 15px;
+  max-height: 28px;
 }
 
 .octonaut {
-    animation: float;
-    position: absolute;
-    max-width: 50%;
-    right: 0;
-    offset-position: 100px;
-    transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
+  animation: float;
+  position: absolute;
+  max-width: 50%;
+  right: 0;
+  offset-position: 100px;
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+}
+
+.bgimage {
+  width: 100%;
+  height: 500px;
+  background: url("https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bgimage h5 {
+  color: white;
+  text-shadow: 2px 2px #333;
+}
+
+footer h5 {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.navbar {
+  margin: 0px 70px;
+  padding: 20px 0;
 }
 
 .breathing {
-    right: 0;
-    position: absolute;
-    transform: translatey(0px);
-	animation: breathing 6s ease-in-out infinite;
+  right: 0;
+  position: absolute;
+  transform: translatey(0px);
+  animation: breathing 6s ease-in-out infinite;
 }
 
 .herobg {
-    position: absolute;
-    background: url(./img/herobg.svg)  no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
+  position: absolute;
+  background: url(./img/herobg.svg) no-repeat center center;
+  background-size: contain;
+  height: 100vh;
+  z-index: -1;
+  width: 100%;
 }
 
 #usercount {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 @keyframes float {
-	0% {
-		transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(-50px);
-	}
-	100% {
-		transform: translatey(0px);
-	}
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-50px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
 }
 
 @keyframes breathing {
-	0% {
-		transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(-30px);
-	}
-	100% {
-		transform: translatey(0px);
-	}
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-30px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
 }
 
 .logofooter {
-    max-width: 50px;
-    opacity: 0.4;
+  max-width: 50px;
+  opacity: 0.4;
 }
 
 .bigger {
-    font-size: 2.7em;
-    font-weight: bolder;
+  font-size: 2.7em;
+  font-weight: bolder;
+  margin-top: 100px;
 }
 
 .mixlook {
-    max-width: 200px;
-    margin: 20px 10px;
+  max-width: 200px;
+  margin: 20px 10px;
 }
 
 #header {
-    background: #131313;
-    height: 100vh;
-    background-image: url(./img/spacehero.png);
+  background: #131313;
+  height: 100vh;
+  background-image: url(./img/spacehero.png);
 }
 
 .social {
-    font-size: 2.7em;
-    font-weight: bolder;
-    font-family: "Averia Libre";
-    color: #FF913D;
+  font-size: 2.7em;
+  font-weight: bolder;
+  font-family: "Quicksand";
+  color: #ff913d;
 }
 
 .orange {
-    color: #FF913D;
+  color: #ff913d;
 }
 
 .button {
-    background-color: #FF913D;
-    border: none;
-    color: #353535;
-    padding: 20px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.7em;
-    font-family: "Offside";
-    font-weight: bolder;
-    margin: 15px;
-    border-radius: 40px;
-    transition: transform .2s; 
+  background-color: #ff913d;
+  border: none;
+  color: #111111;
+  padding: 20px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 1.7em;
+  font-family: "Quicksand";
+  font-weight: bolder;
+  margin: 15px;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.bigger {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 53px;
+  line-height: 66px;
 }
 
 .avatar {
-    border-radius: 100%;
-    border: 5px solid #FF913D;
-    box-shadow: 0 6px 28px 0 rgba(0,0,0, 0.2); 
-    transition: transform .2s; 
+  border-radius: 100%;
+  border: 5px solid #ff913d;
+  box-shadow: 0 6px 28px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
 }
 
 .discord {
-    background-color: #F5C400;
-    color: #111820;
-    font-weight: normal;
+  background-color: #f5c400;
+  color: #111820;
+  font-weight: normal;
 }
 
 .discordb {
-    background-color: #111820;
-    color: #F5C400;
-    font-weight: normal;
-    margin: 0;
+  background-color: #111820;
+  color: #f5c400;
+  font-weight: normal;
+  margin: 0;
 }
 
 .twitter {
-    background-color: #1da1f2;
-    color: #fff;
-    margin: 10px;
-    font-weight: normal;
-    border-radius: 100%;
+  background-color: #1da1f2;
+  color: #fff;
+  margin: 10px;
+  font-weight: normal;
+  border-radius: 100%;
 }
 
 .lab {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .sub {
-    padding-top: 10px;
-    text-align: left !important;
+  padding-top: 10px;
+  text-align: left !important;
 }
 
 .box {
-    box-shadow: 0 6px 28px 0 rgba(0,0,0, 0.2); 
+  box-shadow: 0 6px 28px 0 rgba(0, 0, 0, 0.2);
 }
 
 .labs {
-    border-radius: 25px;
-    box-shadow: 0 6px 28px 0 rgba(0,0,0, 0.2); 
-    padding: 50px;
+  border-radius: 25px;
+  box-shadow: 0 6px 28px 0 rgba(0, 0, 0, 0.2);
+  padding: 50px;
 }
 
 .white {
-    background-color: white;
-    color: #50a447;
-    margin: 0;
+  background-color: white;
+  color: #50a447;
+  margin: 0;
 }
 
 .green {
-    background: #50a447;
-    color: #fff !important;
+  background: #50a447;
+  color: #fff !important;
+}
+
+.green2 {
+  color: #3dff7f;
 }
 
 .project-img {
-    max-width: 100%; 
-    max-height: 50px;
+  max-width: 100%;
+  max-height: 50px;
 }
 
 .socialpanel {
-    background-image: url('/img/social.png');
-    background-repeat: no-repeat;
-    background-position: top center;
-    padding: 500px 0;
-    margin-top: 0 !important;
+  background-image: url("/img/social.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 500px 0;
+  margin-top: 0 !important;
 }
 
 .suggestion {
-    color: #fff;
-    font-family: "Offside";
+  color: #fff;
+  font-family: "Quicksand";
 }
 
 .avatar {
-    border: 0 0 0 1px;
-    border-radius: 100%;
-    background: #353535;
-    max-height: 250px;
+  border: 0 0 0 1px;
+  border-radius: 100%;
+  background: #353535;
+  max-height: 250px;
 }
 
 .grey {
-    color: #353535;
+  color: #353535;
 }
 
 .sub {
-    font-size: 30px;
-    opacity: 0.5;
+  font-size: 30px;
+  opacity: 0.5;
 }
 
 .suggestion-link {
-    font-weight: bolder;
-    color: #fff;
-    text-decoration: none;
+  font-weight: bolder;
+  color: #fff;
+  text-decoration: none;
 }
 
 .suggestion-link:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .helpb {
-    text-align: right !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  text-align: right !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
-
 .left {
-    text-align: left !important;
-    padding: 0 !important;
+  text-align: left !important;
+}
+
+.text-uppercase {
+  color: #ff913d;
+}
+
+.text-dark {
+  color: white !important;
+  text-decoration: none;
 }
 
 .right {
-    text-align: right !important;
-    padding: 0 !important;
+  text-align: right !important;
+  padding: 0 !important;
 }
 
 .help {
-    background-image: url('/img/top.png');
-    background-size: cover;
+  background-image: url("/img/top.png");
+  background-size: cover;
 }
 
 .noun:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .b {
-    border-radius: 10px;
-    background: rgba(0,0,0, 0.3);
-    margin: 10px;
-    padding: 10px;
-    font-family: "Offside";
-    line-height: 50px;
-    color: #fff;
-    white-space:nowrap;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  padding: 10px;
+  font-family: "Quicksand";
+  line-height: 50px;
+  color: #fff;
+  white-space: nowrap;
 }
 
 .suggest {
-    border-radius: 10px;
-    background: rgba(0,0,0, 0.3);
-    margin: 10px;
-    padding: 8px 10px;
-    border: 2px dashed #fff;
-    font-family: "Offside";
-    line-height: 50px;
-    color: #fff;
-    white-space:nowrap;
-    opacity: 0.5;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  padding: 8px 10px;
+  border: 2px dashed #fff;
+  font-family: "Quicksand";
+  line-height: 50px;
+  color: #fff;
+  white-space: nowrap;
+  opacity: 0.5;
 }
 
 .spaces {
-    max-height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+  max-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .spacebg {
-    background-image: url('/img/spacebg.png');
-    background-size: cover;
+  background-image: url("/img/spacebg.png");
+  background-size: cover;
 }
 
 .mdl {
-    background-image: url('/img/mdl-bg.png');
-    background-size: cover;
+  background-image: url("/img/mdl-bg.png");
+  background-size: cover;
 }
 
 .nocorn-left {
-    border-radius: 25px 0 0 25px;
+  border-radius: 25px 0 0 25px;
 }
 
 .nocorn-right {
-    border-radius: 0 25px 25px 0;
+  border-radius: 0 25px 25px 0;
 }
 
 .instagram {
-    background-color: #e1306c;
-    color: #fff;
-    margin: 10px;
-    font-weight: normal;
-    border-radius: 100%;
+  background-color: #e1306c;
+  color: #fff;
+  margin: 10px;
+  font-weight: normal;
+  border-radius: 100%;
 }
 
 .github {
-    background-color: #fff;
-    color: #000;
-    margin: 10px;
-    font-weight: normal;
-    border-radius: 100%;
+  background-color: #fff;
+  color: #000;
+  margin: 10px;
+  font-weight: normal;
+  border-radius: 100%;
 }
 
 .button:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-.subtitle-black { 
-        color: #353535;
-        font-family: "Offside";
-        text-align: center;
-        font-size: 1.5em;
-        padding: 0 50px;
+.subtitle-black {
+  color: #353535;
+  font-family: "Quicksand";
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0 50px;
 }
 
 .socialt {
-        border: none;
-        color: #FF913D;
-        padding: 0px 10px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 1.7em;
-        font-family: "Offside";
-        font-weight: normal;
-        margin: 5px;
+  border: none;
+  color: #ff913d;
+  padding: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7em;
+  font-family: "Quicksand";
+  font-weight: normal;
+  margin: 5px;
 }
 
 .socialt:hover {
-    color: #FF913D;
-}
-
-.navbar-brand {
-    margin-top: 40px;
+  color: #ff913d;
 }
 
 .info {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
-.footer { 
-    background-image: url(./img/end.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-bottom: 200px;
+.maincontent {
+  margin-left: 50px;
+  margin-top: 150px;
+}
+
+.footer {
+  background-image: url(./img/end.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 200px;
 }
 
 .subtitle {
-    color: white;
-    font-family: "Offside";
-    text-align: center;
-    font-size: 1.5em;
-    padding: 0 50px;
+  color: white;
+  font-family: "Quicksand";
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0 50px;
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #ffffff;
 }

@@ -11,13 +11,14 @@
 
     <meta property="og:title" content="Orangopus">
     <meta property="og:site_name" content="Orangopus">
-    <meta property="og:url" content="https://orangop.us">
+    <meta property="og:url" content="https://orangopus.com">
     <meta property="og:description"
         content="We're an open-source non-profit development studio working on projects for creators & beyond.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="./img/logo.png">
 
-    <link href="https://fonts.googleapis.com/css?family=Averia+Libre:400,700|Offside&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -29,50 +30,72 @@
 </head>
 
 <body>
-    <header class="masthead text-center text-white" id="header">
-        <div class="masthead-content herobg">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img class="logo" src="./img/logo.png">
-                </a>
-                <div>
-                    <img class="breathing" src="./img/breathingtube.png"> 
-                    <img class="octonaut" src="./img/octonaut.png">
-                </div>
-                <div>
-                    <h1 class="blurb">We're an open-source non-profit development studio working on projects for creators &
-                        beyond.</h1>
-                    <button class="button box" style="margin-top: 100px;" onclick="location.href='#learn-more'">Learn More</button>
-                    <br />
-<iframe src="https://www.guilded.gg/canvas_index.html?route=%2Fcanvas%2Fembed%2Fteamcard%2F7EA9kNWE" width="268" height="380" frameborder="0" scrolling="no"></iframe>                </div>
-            </div>
+
+    <header class="masthead text-white" id="header">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="./img/logo2.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">MISSION <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PROJECTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">COMMUNITY</a>
+                  </li>
+
+              </ul>
+            <button class="button2" type="submit">GET INVOLVED</button>
+          </form>
+        </div>
+      </nav>
+
+        <div class="masthead-content">
+            <div class="left">
+
+                    <div class="col-12 left container">
+                        <div class="row">
+                            <div class="col">
+                                <h1 class="text-white bigger">We're <span class="orange">ORANGOPUS</span></h1>
+                                <p class="blurb text-white left">An open collective that builds free open-source software for creators.</p>
+                                <button class="button box" style="margin-top: 100px;"
+                                onclick="location.href='#learn-more'">Get Started</button>
+                            </div>
+                            <div class="col img-col">
+                              <img src="./img/hero-img.png" class="img-fluid" alt="Software Development">
+                            </div>
+                          </div>
+                    </div>
     </header>
 
     <div id="learn-more"></div>
 
     <section class="info">
         <div class="container">
-            <p class="subtitle" style="padding-bottom: 35px;">At <span class="orange">Orangopus</span> we believe in a
-                free &amp; open-source model and
-                aim to build a platform in which users can create their own projects, but also receive ongoing
-                mentorship through platforms such as Discord and be rewarded through said initiatives. Well that's the
-                idea...</p>
+            <h1 class="text-white"><span class="orange">100%</span> open-source <span class="orange">100%</span> non-profit</h1>
+            <p class="subtitle" style="padding-bottom: 35px;">
+                We are a <span class="green2">grassroots</span> decentralized organization.<br>
+                We specialize in breaking the boundaries of project creation. <br><br>
+                
+                We’re <span class="orange">100%</span> reliant on donations to keep the lights on.
+            </p>
+            <img class="img-responsive" src="img/light.png"/>
         </div>
     </section>
 
-    <section class="info socialpanel">
-        <div class="container" style="margin-top: -400px;">
-            <h2 class="social">We're Social Creatures</h2>
-            <button class="button twitter" onclick="location.href='https://twitter.com/Orangopus'"><i
-                    class="fab fa-twitter"></i></button>
-            <button class="button github" onclick="location.href='https://github.com/Orangopus'"><i
-                    class="fab fa-github"></i></button>
-            <button class="button instagram" onclick="location.href='https://instagram.com/Orangopus'"><i
-                    class="fab fa-instagram"></i></button>
-        </div>
-    </section>
-
-    <section class="info" id="labs" style="margin-top: -450px;">
+    <section class="info" id="labs">
         <div class="container labs">
             <div class="container">
                 <div class="row">
@@ -84,7 +107,8 @@
             <div class="container" id="projects">
                 <div class="row">
                     <div class="col-sm project" onclick="location.href='https://github.com/orangopus/touchup'">
-                        <img src="img/touchup.png" class="project-img">
+                        <h1 id="name1" class="name"><img src="img/orangopus.png" class="project-img"
+                                style="max-height: 40px;"> </h1>
                         <hr style="max-width: 100%">
                         <p id="desc1" class="desc"></p>
                     </div>
@@ -97,12 +121,14 @@
                 </div>
                 <div class="row">
                     <div class="col-sm project" onclick="location.href='https://github.com/orangopus/octobot'">
-                        <img src="img/octobot.png" class="project-img">
+                        <h1 id="name3" class="name"><img src="img/orangopus.png" class="project-img"
+                                style="max-height: 40px;"> </h1>
                         <hr style="max-width: 100%">
                         <p id="desc3" class="desc"></p>
                     </div>
                     <div class="col-sm project" onclick="location.href='https://github.com/orangopus/mixlook'">
-                        <img src="img/mixlook.png" class="project-img">
+                        <h1 id="name4" class="name"><img src="img/orangopus.png" class="project-img"
+                                style="max-height: 40px;"> </h1>
                         <hr style="max-width: 100%">
                         <p id="desc4" class="desc"></p>
                     </div>
@@ -110,21 +136,24 @@
                 <div class="row">
                     <div class="col-sm project"
                         onclick="location.href='https://github.com/orangopus/mixer-rich-presence'">
-                        <h1 id="name5" class="name"></h1>
+                        <h1 id="name5" class="name"><img src="img/orangopus.png" class="project-img"
+                                style="max-height: 40px;"> </h1>
                         <hr style="max-width: 100%">
                         <p id="desc5" class="desc"></p>
                     </div>
                     <div class="col-sm project" onclick="location.href='https://github.com/orangopus/chromix'"
                         style="opacity: 0.3;">
-                        <h1 id="name6" class="name"></h1>
+                        <h1 id="name6" class="name"><img src="img/orangopus.png" class="project-img"
+                                style="max-height: 40px;"> </h1>
                         <hr style="max-width: 100%">
                         <p id="desc6" class="desc"></p>
                     </div>
                 </div>
                 <button class="button" onclick="location.href='https://github.com/orangopus'">View All</button>
                 <p class="suggestion">✍️ Submit a suggestion on our
-                    <a class="suggestion-link" target="_blank" href="https://feedback.orangop.us/labs">Feedback Hub <i
-                            class="fas fa-external-link-alt"></i></a></p>
+                    <a class="suggestion-link" target="_blank" href="https://feedback.orangopus.com/labs">Feedback Hub
+                        <i class="fas fa-external-link-alt"></i></a>
+                </p>
             </div>
         </div>
         </div>
@@ -156,7 +185,8 @@
                         <span class="b">📜quotes</span>
                         <span class="b">👋self-promote</span>
                         <span class="b">🧬stem</span>
-                        <span class="suggest"  onclick="location.href='https://feedback.orangop.us/spaces'" style="cursor: pointer;"><i class="fas fa-plus"></i> suggest a space</span>
+                        <span class="suggest" onclick="location.href='https://feedback.orangopus.com/spaces'"
+                            style="cursor: pointer;"><i class="fas fa-plus"></i> suggest a space</span>
                     </div>
                 </div>
             </div>
@@ -176,158 +206,131 @@
                     </div>
 
                     <div>
-                        <p class="subtitle fix">Yes, we are building a games studio in the further future! All of the games we develop will be 100%
+                        <p class="subtitle fix">Yes, we are building a games studio in the further future! All of the
+                            games we develop will be 100%
                             free-to-play and open-source!</p>
                     </div>
 
-                    <button class="button" onclick="location.href='https://go.orangop.us/discord'">Notify Me</button>
+                    <button class="button" onclick="location.href='https://orangop.us/guilded'">Notify Me</button>
                     <p class="suggestion">Read the announcement on our
                         <a class="suggestion-link" target="_blank"
-                            href="https://journal.orangop.us/horizons-of-orangopus">Horizons Article <i
-                                class="fas fa-external-link-alt"></i></a></p>
+                            href="https://observatory.orangopus.com/horizons-of-orangopus">Horizons Article <i
+                                class="fas fa-external-link-alt"></i></a>
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="info">
-        <div class="container labs meetup">
-            <h2 class="social">🤝 Meetups</h2>
-            <p class="subtitle fix">Big thanks to RetroKrystal for setting up the Mixer Meetup back in <br>March 2019.
-                It was a pleasure to meet you all!</p>
-            <p class="subtitle fix">We plan to attend MixCon 2020!</p>
-            <button class="button"
-                onclick="location.href='https://opencollective.com/orangopus/events/mixcon-2020-tbc-48800ev'">See
-                Updates</button>
-
-        </div>
-    </section>
-
-    <section class="info">
-        <div class="container labs">
-            <img src="img/opencollective.png" style="max-height: 75x;">
-            <p class="subtitle fix">Contribute to our OpenCollective page or throw some spare change to help development
-                costs!</p>
-                <div class="row fix">
-                    <div class="col-2"></div>
-                    <div class="col-4"> 
-                        <img src="/img/sparechange.png" style="max-height: 75px;">
-                        <br>
-                        <object type="image/svg+xml"
-                            data="https://opencollective.com/orangopus/tiers/spare-change.svg?avatarHeight=100&button=false"></object>
-                    </div>
-                    <div class="col-4"> 
-                        <img src="/img/pentopus.png" style="max-height: 75px;">  
-                        <br>
-                        <object type="image/svg+xml"
-                            data="https://opencollective.com/orangopus/tiers/pentopus.svg?avatarHeight=100&button=false"></object>
-                    </div>
-                    <div class="col-2"></div>
-                </div>
+    <section class="collective">
+        <div class="container" style="padding-top: 300px;">
+            <img src="img/opencollective.png" style="max-height: 75x; margin-bottom: 25px;">
+            <p class="subtitle fix" style="width: 750px; margin: auto;">We operate in a public light. We’re transparent in our finances and how we spend things.</p>
             <br>
-            <button class="button" onclick="location.href='https://go.orangop.us/collective'">See Collective</button>
+            <button class="button button-oc" onclick="location.href='https://orangop.us/collective'">View Collective</button>
         </div>
     </section>
 
-    <section class="info">
-        <div class="container labs">
-            <img class="lab" src="img/team.png" id="team">
-            <p class="subtitle fix">Meet the orange octopuses who are powering the next evolution in project creation
-                for
-                creators & beyond.</p>
-
-            <div class="row text-center">
-                <div class="col-12">
-                    <div class="row profile text-center">
-                        <div class="col-4">
-                            <img src="https://mixer.com/api/v1/users/3236/avatar" data-toggle="tooltip" data-placement="top" title="Jordan" class="avatar">
-                        </div>
-                        <div class="col-4">
-                            <img src="https://mixer.com/api/v1/users/22440050/avatar" data-toggle="tooltip" data-placement="top" title="Alex" class="avatar">
-                        </div>
-                        <div class="col-4">
-                            <img src="/img/team/steven.gif" data-toggle="tooltip" data-placement="top" title="Steven (Inactive)" class="avatar inactive">
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="projects">
+        <div class="row labs">
             <div class="container">
-                <div class="row labs initiatives green mdl">
-                    <div class="container">
-                        <img src="img/mdl.png" style="max-height: 50px; float: left;">
-                        <p class="desc text-white" style="float:right;">
-                            <a class="suggestion-link noun" target="_blank" href="https://go.orangop.us/mdl">✍️ Apply <i
-                                    class="fas fa-external-link-alt"></i></a></p>
-                    </div>
-                    <div class="container">
-                        <p class="desc text-white" style="padding-top: 10px; text-align: left;">Moddopuses are the lime
-                            holding us all
-                            together. They have an important role to moderate our community for us and flush away
-                            the bad ink that comes into our chat. </p>
-                        <hr>
-                    </div>
-                    <div class="col-1">
-                        <img src="https://uploads.mixer.com/avatar/w7gfdhgf-43457689.jpg"
-                            style="max-height: 50px; border-radius: 100%;">
-                    </div>
-                    <div class="col-5 left">
-                        <h1 class="social"><span class="text-white">ItsGrizz</h1>
-                    </div>
-                    <div class="col-1">
-                        <img src="https://uploads.beam.pro/avatar/xtipmg6r-519332.jpg"
-                            style="max-height: 50px; border-radius: 100%;">
-                    </div>
-                    <div class="col-5 left">
-                        <h1 class="social"><span class="text-white">HugJunkie</h1>
-                    </div>
+                <div class="col-12">
+                    <img class="img-responsive p-5" src="img/project-logos.png"/>
                 </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="info">
-        <div class="container">
-            <div class="row corners">
-                <div class="col-6 labs discord nocorn-left">
-                    <h2 class="social text-white" style="color: #111820 !important;">👋 Guilded</h2>
-                    <p class="subtitle" style="color: #111820;">Join our Guilded if you would like to join the evolution.</p>
-                    <button class="button discordb" onclick="location.href='https://go.orangop.us/guilded'">
-                        Connect</b></button>
-                </div>
-
-                <div class="col-6 labs green nocorn-right">
-                    <h2 class="social text-white">💉 Project Health</h2>
-                    <p class="subtitle">Notice downtime on our projects?</p>
-                    <button class="button white" onclick="location.href='https://status.orangop.us'">
-                        <i class="fas fa-plus-circle"></i> See Status</button>
+                <div class="col-4 helpb center">
+                    <button class="button button-white" onclick="location.href='https://orangop.us/github'">View Projects <i class="fas fa-long-arrow-alt-right"></i></button>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="info">
-        <div class="container labs help">
+  
+    
+
+    <footer style="background: #0E0E0E !important;">
+        <!-- Grid container -->
+        <div class="p-0">
+      
+      
+      
+      
+          <!-- Section: Links -->
+          <section class="">
+            <!--Grid row-->
             <div class="row">
-                <div class="col-8 left">
-                    <h2 class="social text-white">🤙 Help!</h2>
-                    <p class="subtitle left">Need help with Mixlook or struggling to find the secret code for the
-                        Discord? You can find all these articles in the help centre.</p>
-                </div>
-                <div class="col-4 helpb">
-                    <button class="button" onclick="location.href='https://help.orangop.us'">Help Centre</button>
-                </div>
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0 left p-4 pl-5">
+                <img class="logo" src="./img/logo2.png">
+      
+                <br>
+
+                <p class="text-white" style="width: 274px;">Orangopus is an open collective fiscally sponsored by The Social Change Nest
+                </p>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-1 col-md-6 mb-4 mb-md-0 left p-4">
+                <h5 class="text-uppercase">Community</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-dark">Spaces</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-dark">Help Centre</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-dark">Project Health</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-dark">Feedback</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+
+
+              <!--Grid column-->
+              <div class="col-lg-1 col-md-6 mb-4 mb-md-0 left p-4">
+                <h5 class="text-uppercase">Social</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-dark"><i class="fab fa-twitter"></i></a> 
+                    <a href="#!" class="text-dark"><i class="fab fa-guilded"></i></a> 
+                    <a href="#!" class="text-dark"><i class="fab fa-github"></i></a> 
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-2 col-md-6 mb-4 mb-md-0 left p-4">
+                <h5 class="text-uppercase">Contact</h5>
+      
+                <p class="text-white">hey@orangopus.com</p>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-5 col-md-6 mb-4 mb-md-0 left p-4" style="background: #FF9240;">
+                <h5>ABOUT</h5>
+                <p>We are a grassroots nonprofit open collective making it easier for anyone of any background to create projects and get support without judgement or intolerance.</p>
+              </div>
+              <!--Grid column-->
             </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+      
         </div>
-    </section>
+        <!-- Grid container -->
+      
+      </footer>
+      <!-- Footer -->
 
-    <section class="info">
-        <h1 class="social">👋</h1>
-        <h2 class="subtitle"><span class="orange"><b>hey@orangop.us</b></span></h2>
-        <p class="desc text-white">You will be replied to by an actual human, or octopus.</p>
-    </section>
-
-    <footer class="footer"></footer>
     <script type="text/javascript" src="main.js"></script>
     <script src="https://kit.fontawesome.com/504522390b.js"></script>
 </body>
