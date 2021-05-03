@@ -420,6 +420,13 @@ footer h5 {
 .text-dark {
   color: white !important;
   text-decoration: none;
+  font-size: 20px;
+}
+
+a.text-dark:hover,
+a.text-dark:active {
+  color: #ff913d !important;
+  text-decoration: none;
 }
 
 .right {
