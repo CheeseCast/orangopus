@@ -10,15 +10,18 @@ body {
   margin: auto;
 }
 
+.dropdown-menu {
+  background: #111111;
+  border-radius: 10px;
+}
+
 .blurb {
   color: #ff913d;
   font-family: "Quicksand";
   text-align: center;
   font-weight: bolder;
-
-  position: absolute;
   width: 518px;
-  height: 124px;
+
   font-family: Quicksand;
   font-style: normal;
   font-weight: bold;
@@ -207,6 +210,11 @@ footer h5 {
   width: 100%;
 }
 
+.heroimg {
+  filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.5));
+  border-radius: 10px;
+}
+
 #usercount {
   cursor: pointer;
 }
@@ -280,7 +288,6 @@ footer h5 {
   font-size: 1.7em;
   font-family: "Quicksand";
   font-weight: bolder;
-  margin: 15px;
   border-radius: 5px;
   transition: transform 0.2s;
 }
