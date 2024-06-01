@@ -58,13 +58,13 @@ body {
 }
 
 .projects {
-  background-image: url("/img/section-bg.png");
+  background-image: url("img/section-bg.png") !important;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .collective {
-  background-image: url("/img/collective-shapes.png");
+  background-image: url("img/collective-shapes.png");
   background-repeat: no-repeat;
   background-position: center center;
   height: 900px;
@@ -91,7 +91,7 @@ body {
 .meetup {
   border-radius: 25px;
   padding: 0px;
-  background-image: url("/img/meetup.png");
+  background-image: url("img/meetup.png");
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -371,7 +371,7 @@ footer h5 {
 }
 
 .socialpanel {
-  background-image: url("/img/social.png");
+  background-image: url("img/social.png");
   background-repeat: no-repeat;
   background-position: top center;
   padding: 500px 0;
@@ -482,12 +482,12 @@ a.text-dark:active {
 }
 
 .spacebg {
-  background-image: url("/img/spacebg.png");
+  background-image: url("img/spacebg.png");
   background-size: cover;
 }
 
 .mdl {
-  background-image: url("/img/mdl-bg.png");
+  background-image: url("img/mdl-bg.png");
   background-size: cover;
 }
 
