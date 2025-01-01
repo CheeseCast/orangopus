@@ -1,7 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+
     <title>Orangopus</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -18,6 +23,9 @@
     <meta property="og:image" content="./img/logo.png">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.139.2/build/three.min.js"></script>
+
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
@@ -27,6 +35,22 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+        <script src="three.js"></script>
+
+        <style>
+          body {
+              margin: 0;
+              overflow-x: hidden;
+          }
+          
+          canvas {
+              position: fixed;
+              top: 0;
+              left: 0;
+              z-index: -1;
+          }
+      </style>
 </head>
 
 <body>
@@ -118,14 +142,16 @@
 
     <div id="learn-more"></div>
 
-    <section class="info">
+    <section class="info infob infofb">
         <div class="container">
             <h1 class="text-white"><span class="orange">100%</span> open-source <span class="orange">100%</span> non-profit</h1>
             <p class="subtitle" style="padding-bottom: 35px;">
                 We are a <span class="green2">grassroots</span> decentralized organization.<br>
                 We specialize in breaking the boundaries of project creation. <br><br>
 
-                <code>We're an ideas factory.</code>
+                <code>We're an ideas factory.</code>  
+
+                <br>
                 
                 We’re <span class="orange">100%</span> reliant on donations to keep the lights on.
             </p>
@@ -133,7 +159,18 @@
         </div>
     </section>
 
-    <section class="info" id="labs">
+    <section class="mission">
+      <div class="container labs">
+        <div class="title">
+          <img class="avatar" src="orangopus/img/octonaut.png"/><p><span class="missiontitle">Mission</span></p>
+        </div>
+
+      <p>At Orangopus, we are dedicated to exploring the vast expanse of creativity like the infinite cosmos, providing an open-source, non-profit platform where every mind can launch its ideas into the stars. Our mission is to cultivate a universe of inclusivity and innovation, where creators from all backgrounds can navigate their journey of development, guided by mentorship and powered by the freedom of open-source technology.</p>
+    </div>
+   
+    </section>
+
+    <section class="info infob" id="labs">
         <div class="container labs">
             <div class="container">
                 <div class="row">

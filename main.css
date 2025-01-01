@@ -1,14 +1,27 @@
 body {
   background: #ff913d !important;
   text-align: center;
-  font-family: Quicksand;
+  font-family: "Quicksand";
   overflow-x: hidden;
 }
 
 .masthead {
   border-radius: 50px 50px 0 0;
-  background: #ff913d; 
+}
 
+.infob {
+  border-radius: 75px 75px 0 0;
+  padding-top: 50px;
+}
+
+.mission {
+  color: white;
+  padding: 40px;
+}
+
+.infofb {
+  border-radius: 75px;
+  padding-bottom: 40px;  
 }
 
 .center {
@@ -309,9 +322,7 @@ footer h5 {
 }
 
 #header {
-  background: #131313;
   height: 100vh;
-  background-image: url(./img/spacehero.png);
 }
 
 .social {
@@ -352,7 +363,17 @@ button {
   border-radius: 100%;
   border: 5px solid #ff913d;
   box-shadow: 0 6px 28px 0 rgba(0, 0, 0, 0.2);
+  width: 75px;
   transition: transform 0.2s;
+}
+
+.missiontitle {
+  font-size: 3rem;
+  margin-left: 30px;
+  color:#ff913d;
+  text-transform: uppercase;
+  margin-top: 30px !important;
+  
 }
 
 .discord {
@@ -366,6 +387,10 @@ button {
   color: #f5c400;
   font-weight: normal;
   margin: 0;
+}
+
+.title {
+  display:inline-flex;
 }
 
 .twitter {
@@ -436,7 +461,8 @@ button {
   border: 0 0 0 1px;
   border-radius: 100%;
   background: #353535;
-  max-height: 250px;
+  max-height: 75px;
+  max-width: 200px !important;
 }
 
 .grey {
